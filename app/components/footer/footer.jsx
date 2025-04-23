@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-      <div className=" text-white py-16 w-350 container">
+      <div className=" text-white py-16 w-350 container mt-100">
         <div className=" mx-auto px-6">
           {/* Company Info */}
           <div className="flex flex-col md:flex-row justify-between items-start mb-8">
