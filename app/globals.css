@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 :root {
   --background: #ffffff;
   --foreground: #111111;
@@ -59,3 +60,24 @@ body {
 .font-reckless {
   font-family: 'RecklessNeue', sans-serif;
 }
+
+/* Infinite scroll keyframe */
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.carousel-track {
+  width: max-content;
+  animation: scroll 30s linear infinite;
+}
+
+/* Optional: hide scrollbar on mobile if needed */
+::-webkit-scrollbar {
+  display: none;
+}
+

@@ -1,3 +1,6 @@
+import Image from "next/image";
+import Link from "next/link";
+
 const AboutusPage = () => {
     return (
         <div className="container relative">
@@ -33,9 +36,11 @@ const AboutusPage = () => {
                 </h3>
 
                 <div className="mt-20">
-                    <button className="bg-transparent border-1 border-white text-white py-4 px-12 rounded-lg text-3xl">
-                    Contact Us Now
-                    </button>
+                    <Link href="/contact">
+                        <button className="bg-transparent border-1 border-white text-white py-4 px-12 rounded-lg text-3xl">
+                        Contact Us Now
+                        </button>
+                    </Link>
                 </div>
         </div> 
 

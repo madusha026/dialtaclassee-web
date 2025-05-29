@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const ServicePage = () => {
     return (
@@ -23,7 +24,7 @@ const ServicePage = () => {
             <div className="container relative grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 ">
                 <div className="w-full h-50 rounded-lg overflow-hidden mb-12">
                 <Image 
-                    src="/images/image20.png" 
+                    src="/images/8.jpg" 
                     alt="Ukaye Cards" 
                     width={300} 
                     height={200} 
@@ -60,7 +61,7 @@ const ServicePage = () => {
             <div className="container relative grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
                 <div className="w-full h-50 rounded-lg overflow-hidden mb-12">
                 <Image 
-                    src="/images/image23.jpg" 
+                    src="/images/37.jpg" 
                     alt="Uka" 
                     width={300} 
                     height={200} 
@@ -78,7 +79,7 @@ const ServicePage = () => {
             <div className="container relative grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
                 <div className="w-full h-50 rounded-lg overflow-hidden mb-12">
                 <Image 
-                    src="/images/image24.jpg" 
+                    src="/images/32.png" 
                     alt="Ukaye Cards" 
                     width={300} 
                     height={200} 
@@ -115,24 +116,6 @@ const ServicePage = () => {
             <div className="container relative grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
                 <div className="w-full h-50 rounded-lg overflow-hidden mb-12">
                 <Image 
-                    src="/images/image26.jpg" 
-                    alt="Ukaye Cards" 
-                    width={300} 
-                    height={200} 
-                    className="w-full h-full object-cover"
-                    /> 
-                <div className=" text-white absolute top-[80px] font-reckless font-light text-2xl md:text-4xl left-10">
-                Event Photography & Videography
-                </div>   
-                <div className="mt-10 ml-280 flex justify-between items-center space-x-10 absolute top-[40px]">
-                    <button className="border-2 border-white text-white rounded-4xl py-3 px-4">→</button>
-                </div>               
-                </div>
-            </div>
-
-            <div className="container relative grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
-                <div className="w-full h-50 rounded-lg overflow-hidden mb-12">
-                <Image 
                     src="/images/image27.jpg" 
                     alt="Ukaye Cards" 
                     width={300} 
@@ -151,11 +134,11 @@ const ServicePage = () => {
             <div className="container relative grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
                 <div className="w-full h-50 rounded-lg overflow-hidden mb-12">
                 <Image 
-                    src="/images/image28.jpg" 
+                    src="/images/52.jpg" 
                     alt="Ukaye Cards" 
                     width={300} 
                     height={200} 
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover "
                     /> 
                 <div className=" text-white absolute top-[80px] font-reckless font-light text-2xl md:text-4xl left-10">
                 Event Photography & Videography
@@ -169,7 +152,7 @@ const ServicePage = () => {
             <div className="container relative grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
                 <div className="w-full h-50 rounded-lg overflow-hidden mb-12">
                 <Image 
-                    src="/images/image29.jpg" 
+                    src="/images/15.jpg" 
                     alt="Ukaye Cards" 
                     width={300} 
                     height={200} 
@@ -187,7 +170,7 @@ const ServicePage = () => {
             <div className="container relative grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
                 <div className="w-full h-50 rounded-lg overflow-hidden mb-12">
                 <Image 
-                    src="/images/image30.jpg" 
+                    src="/images/47.jpg" 
                     alt="Ukaye Cards" 
                     width={300} 
                     height={200} 
@@ -252,9 +235,11 @@ const ServicePage = () => {
                 </h3>
 
                 <div className="mt-20">
-                    <button className="bg-transparent border-1 border-white text-white py-4 px-12 rounded-lg text-3xl">
-                    Contact Us Now
-                    </button>
+                    <Link href="/contact">
+                        <button className="bg-transparent border-1 border-white text-white py-4 px-12 rounded-lg text-3xl">
+                        Contact Us Now
+                        </button>
+                    </Link>
                 </div>
         </div> 
         

@@ -5,7 +5,7 @@ const HomePage = () => {
     return (
         <div>
         <Image 
-          src="/images/bg.png"  // Correct path to image in public folder
+          src="/images/bg.png"  
           alt="Company Logo" 
           className=""
           width={1000}  
